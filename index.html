@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>anew.</title>
+    <title>anew. </title>
     <link rel="stylesheet" href="../static/style.css">
 </head>
 <body>
-    <!-- Loading animation -->
+    <!-- Loading animation (New) -->
     <div id="loader">
         <img src="../assets/loader.gif" alt="Loading...">
     </div>
@@ -20,9 +20,16 @@
         
         <!-- Theme Toggle Button (New) -->
         <button onclick="toggleTheme()">Toggle Theme</button>
+
+        <!-- Link to Settings Page (New) -->
+        <a href="../templates/settings.html">Settings</a>
+
+        <!-- Extension Button for Quick Notes (New) -->
+        <button onclick="openQuickNotes()">Quick Notes</button>
     </div>
     
     <script src="../static/script.js"></script>
-    <script src="../static/theme.js"></script> <!-- Added theme.js to manage theme toggling -->
+    <script src="../static/theme.js"></script> <!-- Added theme.js for theme toggle -->
+    <script src="../static/extensions/quick_notes.js"></script> <!-- Added quick_notes.js for notes -->
 </body>
 </html>
