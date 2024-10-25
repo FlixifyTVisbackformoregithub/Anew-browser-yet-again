@@ -1,0 +1,10 @@
+/* Light Mode */
+.light-mode { /* New class added for light mode */
+    background-color: #ffffff;
+    color: #333;
+}
+
+.light-mode #url-input { /* Styling for URL input in light mode */
+    background-color: #f5f5f5;
+    color: #333;
+}
